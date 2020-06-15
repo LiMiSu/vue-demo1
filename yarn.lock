@@ -976,7 +976,7 @@
     "@vue/babel-sugar-functional-vue" "^1.1.2"
     "@vue/babel-sugar-inject-h" "^1.1.2"
     "@vue/babel-sugar-v-model" "^1.1.2"
-    "@vue/babel-sugar-v-on" "^1.1.2"
+    "@vue/babel-sugar-@" "^1.1.2"
 
 "@vue/babel-sugar-functional-vue@^1.1.2":
   version "1.1.2"
@@ -1004,9 +1004,9 @@
     html-tags "^2.0.0"
     svg-tags "^1.0.0"
 
-"@vue/babel-sugar-v-on@^1.1.2":
+"@vue/babel-sugar-@@^1.1.2":
   version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-v-on/download/@vue/babel-sugar-v-on-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-v-on%2Fdownload%2F%40vue%2Fbabel-sugar-v-on-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
   integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
