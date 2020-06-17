@@ -52,7 +52,7 @@
                 const map = this.map;
 
                 //横
-                for (let i = 0; i < 2; i++) {
+                for (let i = 0; i < 3; i++) {
                     if (map[i][0] !== null &&
                         map[i][0] === map[i][1] &&
                         map[i][1] === map[i][2]
@@ -61,7 +61,7 @@
                     }
                 }
                 //纵
-                for (let j = 0; j < 2; j++) {
+                for (let j = 0; j < 3; j++) {
                     if (map[0][j] !== null &&
                         map[0][j] === map[1][j] &&
                         map[1][j] === map[2][j]
