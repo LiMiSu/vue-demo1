@@ -973,10 +973,19 @@
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
+    "@vue/babel-sugar-@" "^1.1.2"
     "@vue/babel-sugar-functional-vue" "^1.1.2"
     "@vue/babel-sugar-inject-h" "^1.1.2"
     "@vue/babel-sugar-v-model" "^1.1.2"
-    "@vue/babel-sugar-@" "^1.1.2"
+
+"@vue/babel-sugar-@@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
+  integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+    "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
+    camelcase "^5.0.0"
 
 "@vue/babel-sugar-functional-vue@^1.1.2":
   version "1.1.2"
@@ -1003,15 +1012,6 @@
     camelcase "^5.0.0"
     html-tags "^2.0.0"
     svg-tags "^1.0.0"
-
-"@vue/babel-sugar-@@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
-  integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
-  dependencies:
-    "@babel/plugin-syntax-jsx" "^7.2.0"
-    "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
-    camelcase "^5.0.0"
 
 "@vue/cli-overlay@^4.4.4":
   version "4.4.4"
@@ -4585,9 +4585,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz?cache=0&sync_timestamp=1571657272199&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
