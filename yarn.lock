@@ -973,10 +973,19 @@
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
+    "@vue/babel-sugar-@" "^1.1.2"
     "@vue/babel-sugar-functional-vue" "^1.1.2"
     "@vue/babel-sugar-inject-h" "^1.1.2"
     "@vue/babel-sugar-v-model" "^1.1.2"
-    "@vue/babel-sugar-@" "^1.1.2"
+
+"@vue/babel-sugar-@@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
+  integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+    "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
+    camelcase "^5.0.0"
 
 "@vue/babel-sugar-functional-vue@^1.1.2":
   version "1.1.2"
@@ -1003,15 +1012,6 @@
     camelcase "^5.0.0"
     html-tags "^2.0.0"
     svg-tags "^1.0.0"
-
-"@vue/babel-sugar-@@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
-  integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
-  dependencies:
-    "@babel/plugin-syntax-jsx" "^7.2.0"
-    "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
-    camelcase "^5.0.0"
 
 "@vue/cli-overlay@^4.4.4":
   version "4.4.4"
@@ -7659,9 +7659,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"
