@@ -973,10 +973,19 @@
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
+    "@vue/babel-sugar-@" "^1.1.2"
     "@vue/babel-sugar-functional-vue" "^1.1.2"
     "@vue/babel-sugar-inject-h" "^1.1.2"
     "@vue/babel-sugar-v-model" "^1.1.2"
-    "@vue/babel-sugar-@" "^1.1.2"
+
+"@vue/babel-sugar-@@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
+  integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
+  dependencies:
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+    "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
+    camelcase "^5.0.0"
 
 "@vue/babel-sugar-functional-vue@^1.1.2":
   version "1.1.2"
@@ -1003,15 +1012,6 @@
     camelcase "^5.0.0"
     html-tags "^2.0.0"
     svg-tags "^1.0.0"
-
-"@vue/babel-sugar-@@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@vue/babel-sugar-@/download/@vue/babel-sugar-@-1.1.2.tgz?cache=0&sync_timestamp=1573270721318&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-sugar-@%2Fdownload%2F%40vue%2Fbabel-sugar-@-1.1.2.tgz#b2ef99b8f2fab09fbead25aad70ef42e1cf5b13b"
-  integrity sha1-su+ZuPL6sJ++rSWq1w70Lhz1sTs=
-  dependencies:
-    "@babel/plugin-syntax-jsx" "^7.2.0"
-    "@vue/babel-plugin-transform-vue-jsx" "^1.1.2"
-    camelcase "^5.0.0"
 
 "@vue/cli-overlay@^4.4.4":
   version "4.4.4"
@@ -2812,9 +2812,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.npm.taobao.org/dns-packet/download/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
-  integrity sha1-EqpCaYEHW+UAuRDu3NC0fdfe2lo=
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
